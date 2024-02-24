@@ -1,1 +1,1 @@
-# lab-vite
+This only for desktop
