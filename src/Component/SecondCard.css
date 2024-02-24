@@ -1,0 +1,49 @@
+.Secondcard{
+    width: 333px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 425px;
+    font-size: 14px;
+    background-color: white;
+    padding: 9px;
+    margin-right: 8px;
+}
+.secondimg{
+    padding-top: 20px;
+    width: 141px;
+    height: 103px;
+}
+.innercardNav{
+    display: flex;
+}
+.innerNavItem{
+    margin-right: 8px;
+    margin-top: 15px;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: #F2F4F7;
+
+}
+.priceCtn{
+    display: flex;
+}
+.price2{
+    padding: 4px;
+    font-size: 14px;
+    color: #9FA9B3;
+    padding-left: 12px;
+}
+.h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+.views2{
+ width: fit-content;
+ padding: 8px 100px;
+ border-radius: 12px;
+ color: white;
+ cursor: pointer;
+ border: none;
+ background-color: #1B88F4;
+}

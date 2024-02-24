@@ -1,0 +1,50 @@
+.navSecond{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #4B5665;
+}
+.itemPart1{
+    display: flex;
+    width: 420px;
+    justify-content: space-between;
+}
+.navSecItem{
+    display: flex;
+   
+}
+.navsectext{
+    cursor: pointer;
+}
+.iconCtn{
+    padding-right: 7px;
+    cursor: pointer;
+}
+.itemPart2{
+    display: flex;
+}
+.thirdNav{
+    display: flex;
+    margin-top: 5px;
+    color: #4B5665;
+    font-weight: 400;
+  
+}
+.thirdNavItem{
+    font-size: 14px;
+    padding: 2px;
+    padding-right:35px;
+    padding-left:6px;
+    margin-right: 20px;
+    border-radius: 12px;
+   cursor: pointer;
+    background-color: #FFFFFF;
+}
+.lastnavitem{
+    font-size: 14px;
+    padding-left:6px;
+    margin-right: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+   
+}

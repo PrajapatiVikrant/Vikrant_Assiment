@@ -1,0 +1,27 @@
+.signupCtn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signupMessage{
+    font-size: 32px;
+}
+.signuInput{
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+}
+.signup{
+    padding: 11px;
+    position: relative;
+    top:-2px;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    background-color: #1B88F4;
+    color: white;
+    border-radius: 12px;
+}

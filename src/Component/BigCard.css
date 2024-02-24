@@ -1,0 +1,75 @@
+.rating-card {
+   
+    padding: 10px 20px;
+    background-color: #F3F9FF;
+    text-align: center;
+    border-radius: 0px, 0px, 12px, 12px;
+    width: 70px;
+    font-size: 32px;
+}
+h2{
+    font-size: 14px;
+}
+.text{
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.stars {
+    color: gold;
+    font-size: 12px;
+    
+}
+.CardCtn{
+    background-color: #FFFFFF;
+    padding: 5px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.cardimg{
+    padding-top: 50px;
+    width: 141px;
+    height: 90px;
+}
+.flextitem1{
+    font-size: 16px;
+    width: 450px;
+    text-align: justify;
+}
+.flexItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+h2{
+    font-size: 20px;
+}
+.part2para{
+    padding-left: 20px;
+}
+.showmore{
+   position: relative;
+   left: -180px;
+   cursor: pointer;
+   color: blue;
+}
+.arrowIcon{
+   
+    rotate: 180deg;
+    display: inline-block;
+    padding-top: 3px;
+   
+}
+.views{
+ padding: 8px 60px;
+ border-radius: 12px;
+ color: white;
+ cursor: pointer;
+ border: none;
+ background-color: #1B88F4;
+
+}

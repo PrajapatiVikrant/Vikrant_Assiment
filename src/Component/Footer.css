@@ -1,0 +1,35 @@
+.footerctn{
+    background-color: black;
+    display: flex;
+    color: #D1D6DA;
+    justify-content: center;
+    padding: 100px;
+}
+.footer{
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    align-items: center;
+}
+.fheading{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px;
+}
+.fitem{
+    font-size: 14px;
+    cursor: pointer;
+    padding: 8px;
+}
+.fitem:hover{
+    text-decoration: underline;
+}
+.footerItemIcon{
+    display: flex;
+}
+
+.f2heading{
+    padding-top: 25px;
+   
+    
+}
