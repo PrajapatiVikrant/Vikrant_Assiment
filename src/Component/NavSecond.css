@@ -30,6 +30,15 @@
     font-weight: 400;
   
 }
+.thirdNavMobile{
+    display: none;
+}
+.lastNav{
+    display: flex;
+    margin-top: 5px;
+    color: #4B5665;
+    font-weight: 400;
+}
 .thirdNavItem{
     font-size: 14px;
     padding: 2px;
@@ -48,3 +57,43 @@
     cursor: pointer;
    
 }
+@media (max-width: 900px){
+   .itemPart1{
+    display: flex;
+    flex-direction: column;
+   }
+   .navSecond{
+    display: flex;
+    flex-direction: column;
+   }
+   .thirdNav{
+    display: none;
+    
+   }
+   .thirdNavMobile{
+    display: flex;
+   
+    margin-top: 5px;
+    color: #4B5665;
+    font-weight: 400;
+  
+
+   }
+   .thirdNavItem{
+    display: inline-block;
+   }
+   .lastNav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .arrowitem{
+    rotate: 90deg;
+    font-size: 30px;
+   }
+   .lastnavitem{
+    font-size: 20px;
+    font-weight: 900;
+   }
+  
+  }

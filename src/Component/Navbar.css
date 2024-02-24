@@ -4,6 +4,9 @@
     background-color: black;
     padding: 8px;
 }
+.navCtnSmall{
+    display: none;
+}
 .nav{
     display: flex;
     width: 60%;
@@ -30,4 +33,33 @@
 }
 .navItem:hover{
     color: white;
+}
+@media (max-width: 900px){
+    .navCtn{
+        display: none;
+    }
+    .navCtnSmall{
+        display: flex;
+        padding: 8px;
+        width: 100%;
+        flex-direction: column;
+        background-color:black;
+    }
+    .nav{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+       
+    }
+    .navpart1{
+        display: flex;
+        width: 100%;
+        padding: 5px;
+        justify-content: space-around;
+    }
+    .searchCtn{
+        width: 90%;
+       
+    }
+
 }

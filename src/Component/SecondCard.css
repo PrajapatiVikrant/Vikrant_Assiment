@@ -47,3 +47,8 @@
  border: none;
  background-color: #1B88F4;
 }
+@media (max-width: 900px){
+    .Secondcard{
+        width: 90%;
+    }
+}

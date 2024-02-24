@@ -1,5 +1,6 @@
 .footerctn{
     background-color: black;
+    width: 100%;
     display: flex;
     color: #D1D6DA;
     justify-content: center;
@@ -30,6 +31,36 @@
 
 .f2heading{
     padding-top: 25px;
+   
+    
+}
+.footerMobile{
+    display: none;
+}
+@media (max-width:900px){
+    .footerctn{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+    .footer{
+        display: none;
+    }
+    .footerMobile{
+        display: flex;
+        flex-direction: column;
+       
+      
+        justify-content: space-between;
+       
+    }
+    .footerpart1{
+        display: flex;
+    }
+    .f2heading{
+        padding-top: 6px;
+    }
    
     
 }

@@ -25,3 +25,23 @@
     color: white;
     border-radius: 12px;
 }
+.break{
+    margin-top: 8px;
+}
+@media (max-width:900px){
+    .signupCtn{
+        display: flex;
+        flex-direction: column;
+    }
+    .signupMessage{
+        font-size: 25px;
+    }
+    .break{
+        margin-top: 8px;
+    }
+    .signuInput{
+        width: 200px;
+        margin-top: 20px;
+    }
+   
+}

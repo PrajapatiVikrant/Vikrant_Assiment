@@ -5,7 +5,7 @@ function Signup(){
         <>
         <br /><br /><br />
         <div className="signupCtn">
-        <div className="signupMessage">Sign up and get <br /><br /> exclusive special deals</div>
+        <p className="signupMessage">Sign up and get <p className="break">exclusive special deals</p> </p>
         <div className="signupInput">
             <input type="text" className="signuInput"/>
             <button className="signup">Sign Up</button>

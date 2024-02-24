@@ -4,5 +4,17 @@
 }
 .secondcardctn{
     display: flex;
+  
     
+}
+@media (max-width: 900px){
+  .firstheading{
+    font-size: 30px;
+    font-weight: 300;
+  } 
+  .secondcardctn{
+    display: flex;
+    flex-direction: column;
+  }
+
 }
